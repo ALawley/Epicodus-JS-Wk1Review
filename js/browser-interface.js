@@ -6,6 +6,6 @@ $(document).ready(function() {
     $('#username').val("");
     var repos = getRepos(username);
     console.log(repos);
-    $('.showRepos').text("Hello");
+    $('.showRepos').text("Hello " + username);
   });
 });
