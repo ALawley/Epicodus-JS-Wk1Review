@@ -1,5 +1,5 @@
 {
-  "name": "weather-app",
+  "name": "github-displayer",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
@@ -7,7 +7,6 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "prompt": "^1.0.0"
   },
@@ -25,5 +24,14 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.1",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALawley/Epicodus-JS-Wk1Review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ALawley/Epicodus-JS-Wk1Review/issues"
+  },
+  "homepage": "https://github.com/ALawley/Epicodus-JS-Wk1Review#readme",
+  "description": ""
 }
