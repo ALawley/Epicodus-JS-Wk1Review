@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Anna Lawley",
   "license": "ISC",
   "dependencies": {
     "prompt": "^1.0.0"
@@ -33,5 +33,5 @@
     "url": "https://github.com/ALawley/Epicodus-JS-Wk1Review/issues"
   },
   "homepage": "https://github.com/ALawley/Epicodus-JS-Wk1Review#readme",
-  "description": ""
+  "description": "Small program to search for all github repos owned by a user and display them"
 }
