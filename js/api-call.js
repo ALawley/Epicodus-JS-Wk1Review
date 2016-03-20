@@ -6,7 +6,7 @@ exports.getRepos = function(searchedUser) {
     console.log(response);
     $(".showRepos").empty();
     for (var i = 0; i < response.length; i++) {
-      $(".showRepos").append('<li><a href="' + response[i].url + '">' + response[i].name + '</a> - ' + response[i].description + '</li>')
+      $(".showRepos").append('<li><a href="' + response[i].html_url + '">' + response[i].name + '</a> - ' + response[i].description + '</li>')
     }
     // $(".showRepos").html(response.forEach(repo) {
     //     '<li><a href="' + repo.url + '">' + repo.name + '</a> - ' + repo.description + '</li>'>
